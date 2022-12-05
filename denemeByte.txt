@@ -1,0 +1,3 @@
+FileoutputStream ile dosya yolu verildi. 
+Buffered ile yavas bir sekilde yazdirmasi istendi.
+Write metoduyla yazdirildi. 

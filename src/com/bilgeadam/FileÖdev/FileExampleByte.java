@@ -53,13 +53,13 @@ public class FileExampleByte {
 			while (i!=-1) {
 				System.out.print((char)i);
 				i=bufferedInputStream.read();
-				System.out.println("okuma islemi basarili");
+				System.out.println("Okuma islemi basarili");
 				bufferedInputStream.close();
 			}
 			
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		} catch (FileNotFoundException ex) {
+			System.out.println("Dosya oluþuturlurken aþaðýdaki hatayý verdi");
+			System.out.println(ex.getMessage());
 		}
 		
 	}

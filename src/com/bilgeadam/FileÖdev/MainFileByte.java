@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class MainFileByte {
 
-	public static void main(String[] args) throws IOException, Throwable {
+	public static void main(String[] args) throws Throwable {
 		FileExampleByte fileExample=new FileExampleByte();
 		fileExample.dosyaYarat();
 		Thread.sleep(2000);
