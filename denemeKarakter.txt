@@ -1,0 +1,3 @@
+FileWriter ile dosya yolu verildi ve true diyerek üzerine yaz denildi 
+Buffered ile yavas bir sekilde yazdirmasi istendi.
+Write metoduyla yazdirildi. 
