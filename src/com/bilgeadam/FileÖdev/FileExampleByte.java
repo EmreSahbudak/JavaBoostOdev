@@ -44,7 +44,7 @@ public class FileExampleByte {
 			
 		}
 	}
-	public static void dosyaOku() throws IOException {
+	public static void dosyaOku() throws Exception{
 		
 		try {
 			FileInputStream fileInputStream = new FileInputStream("denemeByte.txt");
